@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Seçiciler Selectors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- - https://testing-library.com/docs/ecosystem-testing-library-selector/
 
-## Available Scripts
+# Eşleştiriciler Matchers
 
-In the project directory, you can run:
+- - https://github.com/testing-library/jest-dom
 
-### `npm start`
+# Html Element Rolleri
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Kütüphaneler
 
-### `npm test`
+- axios@^0.27.2
+- @testing-library/user-event@14.0
+- json sunucusu(json-server) ("server": "json-server --watch db.json --port 4000")
+- önyükleme bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Test Geliştirme Süreçleri
 
-### `npm run build`
+# TDD (Test Odaklı Geliştirme) (Test Driven Development)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- - kırmızıdan yeşile testi /red to green test
+- - Önce özelliğin / cihazın testi yapan kişinin ardından özellik kodlanır
+- - Artıları, testler bir yük gibi gelmiyor. Geliştirme sürekliliği bir paraçası oluyor. Testleri yazarken dinamik bakımınıda oluşturduğumuz için işlevsellik daha hızlı kodlayabiliyoruz
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# BDD (Davranış Odaklı Geliştirme)(Behaviour Driven Development)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- - Önce özellikler/ürünler geliştirildikten sonra test edilirler.
 
-### `npm run eject`
+# Yangın Etkinliği
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- - rtl içerisinde gelen olayı tetikleme yöntemi
+- - gerçek kullanımdan uzak tepkiler bugün için userEvente'i bıraktı
+- - teitklenen olaylar gerçek bir insanın gerçekleştirebileceği tepkiden çok daha hızlı bir şekilde tetikleniyor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Kullanıcı Etkinliği
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- - bu yolu kullanmak için userEvent paketi indirilmeli
+- - fireEvent'in modern daha gelişmiş verisi
+- - tetiklediğimiz olaylar gerçek kulalnıcının yağıcağı gibi gecikmeli bir gecikmenin ardından gerçekleşebilir
+- - gecikme olduğunda async wait ile kullanırız
