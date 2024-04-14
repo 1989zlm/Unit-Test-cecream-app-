@@ -1,3 +1,10 @@
+
+![ıcecream](https://github.com/1989zlm/Unit-Test-cecream-app-/assets/146070651/b8b557c1-0530-43f6-a85c-099d7d4392b5)
+
+#screen.gif
+
+
+
 # Seçiciler Selectors
 
 - - https://testing-library.com/docs/ecosystem-testing-library-selector/
