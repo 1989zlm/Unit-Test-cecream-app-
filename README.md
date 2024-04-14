@@ -29,15 +29,15 @@
 
 - - Önce özellikler/ürünler geliştirildikten sonra test edilirler.
 
-# Yangın Etkinliği
+# FireEvent
 
 - - rtl içerisinde gelen olayı tetikleme yöntemi
 - - gerçek kullanımdan uzak tepkiler bugün için userEvente'i bıraktı
 - - teitklenen olaylar gerçek bir insanın gerçekleştirebileceği tepkiden çok daha hızlı bir şekilde tetikleniyor
 
-# Kullanıcı Etkinliği
+# UserEvent
 
 - - bu yolu kullanmak için userEvent paketi indirilmeli
-- - fireEvent'in modern daha gelişmiş verisi
+- - fireEvent'in modern daha gelişmiş versiyonu
 - - tetiklediğimiz olaylar gerçek kulalnıcının yağıcağı gibi gecikmeli bir gecikmenin ardından gerçekleşebilir
 - - gecikme olduğunda async wait ile kullanırız

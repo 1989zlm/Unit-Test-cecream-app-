@@ -4,7 +4,7 @@ const Form = () => {
   const [isChecked, setIsChecked] = useState(false);
   const [isHover, setIsHover] = useState(false);
 
-  console.log(isHover);
+  // console.log(isHover);
   // console.log(isChecked);
   return (
     <form className="mt-5 mb-4 d-flex justify-content-center align-items-center gap-3">
